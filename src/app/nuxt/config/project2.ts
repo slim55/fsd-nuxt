@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ...config,
   app: {
     head: {
-      title: 'Программа автоматизации',
+      title: 'Заголовок проекта 2',
       htmlAttrs: {
         lang: 'ru',
       },
@@ -20,12 +20,12 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Программа автоматизации',
+            'Описание проетка 2',
         },
       ],
     },
   },
   dir: {
-    pages: 'src/pages/stage-mobile',
+    pages: 'src/pages/project2',
   },
 })

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ...config,
   app: {
     head: {
-      title: 'Предложения по фитнесу в твоем городе',
+      title: 'Заголовок проекта 1',
       htmlAttrs: {
         lang: 'ru',
       },
@@ -20,12 +20,12 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Выбирай клуб, групповую программу или персонального тренера. Покупай абонементы онлайн по ценам клуба.',
+            'Описание проекта 1',
         },
       ],
     },
   },
   dir: {
-    pages: 'src/pages/client-mobile',
+    pages: 'src/pages/project1',
   },
 })

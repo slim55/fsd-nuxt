@@ -12,6 +12,9 @@ export default {
       exclude: ['fsevents'],
     },
   },
+  components: {
+    dirs: []
+  },
   runtimeConfig: {
     public: {
       ...env.parsed,
@@ -20,6 +23,12 @@ export default {
         APP_NAME: process.env.APP_NAME,
       }),
     },
+  },
+  modules: [
+    '@pinia/nuxt',
+  ],
+  pinia: {
+    autoImports: ['defineStore', 'acceptHMRUpdate'],
   },
   ssr: false,
   nitro: {
