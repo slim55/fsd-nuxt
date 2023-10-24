@@ -33,7 +33,7 @@ export default {
   ssr: false,
   nitro: {
     output: {
-      publicDir: path.join(__dirname, `/${process.env.APP_NAME}/www`),
+      dir: path.join(__dirname, `../../../../${process.env.APP_NAME}/www`),
     },
   },
 }
